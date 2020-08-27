@@ -38,6 +38,8 @@ python -m spinup.run plot spinningup_result/OrderedByAlgorithms/gac/Ant_gac_orig
 
 这里还有一个细节：`Ant_gac_original` 文件夹内有四个 **种子数不同** 的对照组，`plot` 会对这四组数据取一个平均。
 
+![Ant_gac_original](https://github.com/ColorlessBoy/spinningup_results/blob/master/Ant_gac_original.png)
+
 如果我们希望绘制 `spinningup_result/OrderedByAlgorithms/gac/` 文件夹下面所有以 `Ant` 开头的对照组，我们可以输入如下命令：
 
 ```
@@ -46,6 +48,7 @@ python -m spinup.run plot spinningup_result/OrderedByAlgorithms/gac/Ant --smooth
 ```
 
 `plot` 会自动绘制多条曲线，分别对应不同的对照组。
+![Ant_gac](https://github.com/ColorlessBoy/spinningup_results/blob/master/Ant_gac.png)
 
 更多具体详情可以参考 `spinningup/spinup/utils/plot.py` 文件，以及 [https://spinningup.openai.com/en/latest/user/plotting.html](https://spinningup.openai.com/en/latest/user/plotting.html)。
 
