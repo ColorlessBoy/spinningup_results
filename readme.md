@@ -27,7 +27,7 @@ vars.pkl        \\模型有关的文件。
 如果我们想要绘制 `spinningup_result/OrderedByAlgorithms/gac/Ant_gac_original` 对照组的数据曲线，我们可以使用如下命令：
 
 ```python
-python -m spinup.run plot spinningup_result/OrderedByAlgorithms/gac/Ant_gac_original --smooth 11 --name Ant_gac_original
+python -m spinup.run plot spinningup_result/OrderedByAlgorithms/gac/Ant_gac_original --smooth 11 --name Ant_gac_original.png
 -y AverageTestEpRet
 ```
 
@@ -41,7 +41,7 @@ python -m spinup.run plot spinningup_result/OrderedByAlgorithms/gac/Ant_gac_orig
 如果我们希望绘制 `spinningup_result/OrderedByAlgorithms/gac/` 文件夹下面所有以 `Ant` 开头的对照组，我们可以输入如下命令：
 
 ```
-python -m spinup.run plot spinningup_result/OrderedByAlgorithms/gac/Ant --smooth 11 --name Ant_gac
+python -m spinup.run plot spinningup_result/OrderedByAlgorithms/gac/Ant --smooth 11 --name Ant_gac.png
 -y AverageTestEpRet
 ```
 
