@@ -1,0 +1,60 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            400,
+            300
+        ]
+    },
+    "actor_critic":	"MLPActorCritic",
+    "batch_size":	100,
+    "beta_pi_velocity":	0.1,
+    "beta_q_velocity":	0.01,
+    "bias_q_velocity":	0.1,
+    "device":	"cuda:0",
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7feb11f4c400>",
+    "epochs":	750,
+    "exp_name":	"HalfCheetah_gac_pi16",
+    "expand_batch":	100,
+    "gamma":	0.99,
+    "kernel":	"energy",
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7feb11f3a828>":	{
+            "epoch_dict":	{},
+            "exp_name":	"HalfCheetah_gac_pi16",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/peng/Documents/spinningup/data/HalfCheetah_gac_pi16/HalfCheetah_gac_pi16_s234",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/peng/Documents/spinningup/data/HalfCheetah_gac_pi16/HalfCheetah_gac_pi16_s234/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"HalfCheetah_gac_pi16",
+        "output_dir":	"/home/peng/Documents/spinningup/data/HalfCheetah_gac_pi16/HalfCheetah_gac_pi16_s234"
+    },
+    "lr":	0.001,
+    "max_beta_pi":	1.6,
+    "max_beta_q":	0.0,
+    "max_bias_q":	0.0,
+    "max_ep_len":	1000,
+    "noise":	"gaussian",
+    "num_test_episodes":	10,
+    "pi_lr":	1.0,
+    "polyak":	0.995,
+    "replay_size":	1000000,
+    "reward_scale":	1.0,
+    "save_freq":	1,
+    "seed":	234,
+    "start_beta_pi":	1.0,
+    "start_beta_q":	0.0,
+    "start_bias_q":	0.0,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50,
+    "warm_steps":	0
+}
