@@ -1,0 +1,47 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            400,
+            300
+        ]
+    },
+    "actor_critic":	"MLPActorCritic",
+    "alpha":	0.2,
+    "batch_size":	100,
+    "device":	"cuda:1",
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f13b54c72f0>",
+    "epochs":	750,
+    "exp_name":	"Hopper_sac",
+    "gamma":	0.99,
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f13b52fb940>":	{
+            "epoch_dict":	{},
+            "exp_name":	"Hopper_sac",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/peng/Documents/spinningup/data/Hopper_sac/Hopper_sac_s234",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/peng/Documents/spinningup/data/Hopper_sac/Hopper_sac_s234/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"Hopper_sac",
+        "output_dir":	"/home/peng/Documents/spinningup/data/Hopper_sac/Hopper_sac_s234"
+    },
+    "lr":	0.001,
+    "max_ep_len":	1000,
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "replay_size":	1000000,
+    "reward_scale":	1.0,
+    "save_freq":	1,
+    "seed":	234,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50
+}
