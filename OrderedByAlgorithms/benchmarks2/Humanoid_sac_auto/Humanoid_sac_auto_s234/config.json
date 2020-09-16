@@ -9,12 +9,12 @@
     "alpha":	"auto_0.2",
     "batch_size":	100,
     "device":	"cuda:1",
-    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f3e9c6422f0>",
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7efd615922f0>",
     "epochs":	750,
     "exp_name":	"Humanoid_sac_auto",
     "gamma":	0.99,
     "logger":	{
-        "<spinup.utils.logx.EpochLogger object at 0x7f3e9c4757f0>":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7efd613c57f0>":	{
             "epoch_dict":	{},
             "exp_name":	"Humanoid_sac_auto",
             "first_row":	true,
