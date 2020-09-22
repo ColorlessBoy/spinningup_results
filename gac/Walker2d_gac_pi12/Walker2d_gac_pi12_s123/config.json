@@ -13,7 +13,7 @@
     "device":	"cuda:0",
     "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7fa6d243a2f0>",
     "epochs":	750,
-    "exp_name":	"Walker2d_gac_pi12",
+    "exp_name":	"Walker2d_gac_alpha1.2",
     "expand_batch":	100,
     "gamma":	0.99,
     "kernel":	"energy",
