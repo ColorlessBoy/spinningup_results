@@ -6,18 +6,22 @@
         ]
     },
     "actor_critic":	"MLPActorCritic",
-    "alpha":	-1.5,
+    "alpha":	-1.2,
+    "alpha_max":	1.5,
+    "alpha_min":	0.8,
     "batch_size":	100,
-    "beta":	4.0,
+    "beta_max":	4.0,
+    "beta_start":	0.3,
+    "beta_step":	0.01,
     "device":	"cuda:0",
-    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f1361f642f0>",
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f77553da2f0>",
     "epochs":	750,
     "exp_name":	"HumanoidStandup_gac_auto",
     "expand_batch":	100,
     "gamma":	0.99,
     "kernel":	"energy",
     "logger":	{
-        "<spinup.utils.logx.EpochLogger object at 0x7f132bc9dfd0>":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f772117cf98>":	{
             "epoch_dict":	{},
             "exp_name":	"HumanoidStandup_gac_auto",
             "first_row":	true,
@@ -39,8 +43,8 @@
     "max_ep_len":	1000,
     "noise":	"gaussian",
     "num_test_episodes":	10,
-    "pi_lr":	1.0,
     "polyak":	0.995,
+    "polyak_pi":	0.0,
     "replay_size":	1000000,
     "reward_scale":	0.05,
     "save_freq":	1,
@@ -48,6 +52,5 @@
     "start_steps":	10000,
     "steps_per_epoch":	4000,
     "update_after":	1000,
-    "update_every":	50,
-    "warm_steps":	0
+    "update_every":	50
 }
