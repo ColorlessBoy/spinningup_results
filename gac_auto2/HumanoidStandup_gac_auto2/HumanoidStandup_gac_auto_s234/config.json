@@ -1,0 +1,56 @@
+{
+    "ac_kwargs":	{
+        "hidden_sizes":	[
+            400,
+            300
+        ]
+    },
+    "actor_critic":	"MLPActorCritic",
+    "alpha":	-1.2,
+    "alpha_max":	1.5,
+    "alpha_min":	0.8,
+    "batch_size":	100,
+    "beta_max":	4.0,
+    "beta_start":	0.3,
+    "beta_step":	0.01,
+    "device":	"cuda:1",
+    "env_fn":	"<function call_experiment.<locals>.thunk_plus.<locals>.<lambda> at 0x7f22ce4812f0>",
+    "epochs":	750,
+    "exp_name":	"HumanoidStandup_gac_auto",
+    "expand_batch":	100,
+    "gamma":	0.99,
+    "kernel":	"energy",
+    "logger":	{
+        "<spinup.utils.logx.EpochLogger object at 0x7f2298223f98>":	{
+            "epoch_dict":	{},
+            "exp_name":	"HumanoidStandup_gac_auto",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"/home/peng/Documents/spinningup/data/HumanoidStandup_gac_auto/HumanoidStandup_gac_auto_s234",
+            "output_file":	{
+                "<_io.TextIOWrapper name='/home/peng/Documents/spinningup/data/HumanoidStandup_gac_auto/HumanoidStandup_gac_auto_s234/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"HumanoidStandup_gac_auto",
+        "output_dir":	"/home/peng/Documents/spinningup/data/HumanoidStandup_gac_auto/HumanoidStandup_gac_auto_s234"
+    },
+    "lr":	0.001,
+    "max_ep_len":	1000,
+    "noise":	"gaussian",
+    "num_test_episodes":	10,
+    "polyak":	0.995,
+    "polyak_pi":	0.0,
+    "replay_size":	1000000,
+    "reward_scale":	0.05,
+    "save_freq":	1,
+    "seed":	234,
+    "start_steps":	10000,
+    "steps_per_epoch":	4000,
+    "update_after":	1000,
+    "update_every":	50
+}
