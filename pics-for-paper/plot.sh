@@ -52,4 +52,4 @@
 # python -m spinup.run plot ../gac/HalfCheetah_gac_original/ ../gac/HalfCheetah_gac_pi12/ ../gac/HalfCheetah_gac_pi14/ ../gac/HalfCheetah_gac_pi16/ ../gac/HalfCheetah_gac_auto/ --legend '$\alpha=0$' '$\alpha=1.2$' '$\alpha=1.4$' '$\alpha$=1.6' 'auto' --smooth 11 -y '$\alpha$' --name HalfCheetah
 
 
-python -m spinup.run plot ../gac/HumanoidStandup_gac_original/ ../gac/HumanoidStandup_gac_pi10/ ../gac/HumanoidStandup_gac_pi14/ ../gac/HumanoidStandup_gac_alpha18 ../gac/HumanoidStandup_gac_auto/ --legend '$\alpha=0$' '$\alpha=1.0$' '$\alpha=1.4$' '$\alpha=1.8$' 'auto' --smooth 11 -y AverageTestEpRet --name HumanoidStandup
+python -m spinup.run plot ../gac/HumanoidStandup_gac_original/ ../gac/HumanoidStandup_gac_pi10/ ../gac/HumanoidStandup_gac_pi14/ ../gac/HumanoidStandup_gac_alpha18 ../gac/HumanoidStandup_gac_auto/ --legend '$\alpha=0$' '$\alpha=1.0$' '$\alpha=1.4$' '$\alpha=1.8$' '$auto(\alpha_{min}=1.0, \alpha_{\max}=1.8)$' --smooth 11 -y AverageTestEpRet --name HumanoidStandup
